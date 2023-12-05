@@ -1,0 +1,10 @@
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\bin\Debug\kidsgame.exe.config
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\bin\Debug\kidsgame.exe
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\bin\Debug\kidsgame.pdb
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Form1.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Properties.Resources.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.csproj.GenerateResource.cache
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.exe
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.pdb
