@@ -8,3 +8,9 @@ C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.cspr
 C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.csproj.CoreCompileInputs.cache
 C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.exe
 C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.pdb
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Form2.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Form3.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Form5.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Form6.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Form7.resources
+C:\Users\Electronica Care\source\repos\kidsgame\kidsgame\obj\Debug\kidsgame.Welcome_formcs.resources
