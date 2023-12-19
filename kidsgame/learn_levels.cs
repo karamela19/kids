@@ -10,16 +10,22 @@ using System.Windows.Forms;
 
 namespace kidsgame
 {
-    public partial class sign_in_form : Form
+    public partial class learn_Levels : Form
     {
         bool check_exit = true;
-        public sign_in_form()
+        public learn_Levels()
         {
             InitializeComponent();
         }
-        
 
-        private void sign_in_form_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            learn_form learn_Form = new learn_form();
+            learn_Form.ShowDialog();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
@@ -27,26 +33,14 @@ namespace kidsgame
         private void btn_back_Click(object sender, EventArgs e)
         {
             check_exit = false;
-            Application.OpenForms[0].Show();
+            Application.OpenForms[2].Show();
             this.Close();
-        
         }
 
-   
-        private void btn_sign_in_game_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Enter_the_game_form enter_The_Game_Form2 = new Enter_the_game_form();
-            enter_The_Game_Form2.Show();
-        }
-
-        private void sign_in_form_FormClosing(object sender, FormClosingEventArgs e)
+        private void learn_Levels_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (check_exit == true)
             { Application.Exit(); }
-
         }
-
-        
     }
 }

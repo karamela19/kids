@@ -121,7 +121,13 @@
   <data name="b94d405112e5cff99fbbf12ee2f1d3c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b94d405112e5cff99fbbf12ee2f1d3c3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="photo_2023-12-06_05-53-35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2023-12-06_05-53-35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="381f33c662720af5a36af37ce78e1cb4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\381f33c662720af5a36af37ce78e1cb4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2023-12-06_00-03-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2023-12-06_00-03-30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

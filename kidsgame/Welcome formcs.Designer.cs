@@ -29,34 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome_formcs));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_sign_in_form = new System.Windows.Forms.Button();
+            this.btn_loads_form = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btn_sign_in_form
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Info;
-            this.button1.Font = new System.Drawing.Font("MV Boli", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button1.Location = new System.Drawing.Point(54, 260);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(290, 95);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "New Start";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_sign_in_form.BackColor = System.Drawing.SystemColors.Info;
+            this.btn_sign_in_form.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_sign_in_form.Font = new System.Drawing.Font("MV Boli", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sign_in_form.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_sign_in_form.Location = new System.Drawing.Point(62, 260);
+            this.btn_sign_in_form.Name = "btn_sign_in_form";
+            this.btn_sign_in_form.Size = new System.Drawing.Size(331, 95);
+            this.btn_sign_in_form.TabIndex = 0;
+            this.btn_sign_in_form.Text = "New Start";
+            this.btn_sign_in_form.UseVisualStyleBackColor = false;
+            this.btn_sign_in_form.Click += new System.EventHandler(this.btn_sign_in_form_Click);
             // 
-            // button2
+            // btn_loads_form
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Info;
-            this.button2.Font = new System.Drawing.Font("MV Boli", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Location = new System.Drawing.Point(466, 260);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(290, 95);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Load";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_loads_form.BackColor = System.Drawing.SystemColors.Info;
+            this.btn_loads_form.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_loads_form.Font = new System.Drawing.Font("MV Boli", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_loads_form.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_loads_form.Location = new System.Drawing.Point(533, 260);
+            this.btn_loads_form.Name = "btn_loads_form";
+            this.btn_loads_form.Size = new System.Drawing.Size(331, 95);
+            this.btn_loads_form.TabIndex = 1;
+            this.btn_loads_form.Text = "Load";
+            this.btn_loads_form.UseVisualStyleBackColor = false;
+            this.btn_loads_form.Click += new System.EventHandler(this.btn_loads_form_click);
             // 
             // label1
             // 
@@ -64,7 +68,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.Info;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(175, 113);
+            this.label1.Location = new System.Drawing.Point(200, 113);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(482, 74);
             this.label1.TabIndex = 2;
@@ -72,15 +76,16 @@
             // 
             // Welcome_formcs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(816, 456);
+            this.ClientSize = new System.Drawing.Size(933, 456);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_loads_form);
+            this.Controls.Add(this.btn_sign_in_form);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.Name = "Welcome_formcs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wonder Learn";
             this.Load += new System.EventHandler(this.Welcome_formcs_Load);
             this.ResumeLayout(false);
@@ -90,8 +95,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_sign_in_form;
+        private System.Windows.Forms.Button btn_loads_form;
         private System.Windows.Forms.Label label1;
     }
 }
