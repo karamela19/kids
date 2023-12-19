@@ -1,6 +1,6 @@
 ﻿namespace kidsgame
 {
-    partial class Form5
+    partial class quiz_form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(quiz_form));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -43,31 +43,33 @@
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(400, 30);
+            this.button1.Location = new System.Drawing.Point(561, 30);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 52);
+            this.button1.Size = new System.Drawing.Size(80, 52);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(22, 30);
+            this.button2.Location = new System.Drawing.Point(25, 30);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 52);
+            this.button2.Size = new System.Drawing.Size(80, 52);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // Form5
+            // quiz_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(499, 539);
+            this.ClientSize = new System.Drawing.Size(668, 695);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form5";
-            this.Text = "Form5";
+            this.Name = "quiz_form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Quiz Form";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
 
         }

@@ -52,11 +52,11 @@
     <Compile Include="Enter the game form.Designer.cs">
       <DependentUpon>Enter the game form.cs</DependentUpon>
     </Compile>
-    <Compile Include="learn and quizz levels.cs">
+    <Compile Include="learn_levels.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="learn and quizz levels.Designer.cs">
-      <DependentUpon>learn and quizz levels.cs</DependentUpon>
+    <Compile Include="learn_levels.Designer.cs">
+      <DependentUpon>learn_levels.cs</DependentUpon>
     </Compile>
     <Compile Include="log in form.cs">
       <SubType>Form</SubType>
@@ -84,6 +84,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="quiz_levels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="quiz_levels.Designer.cs">
+      <DependentUpon>quiz_levels.cs</DependentUpon>
+    </Compile>
     <Compile Include="sign in form .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,8 +105,8 @@
     <EmbeddedResource Include="Enter the game form.resx">
       <DependentUpon>Enter the game form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="learn and quizz levels.resx">
-      <DependentUpon>learn and quizz levels.cs</DependentUpon>
+    <EmbeddedResource Include="learn_levels.resx">
+      <DependentUpon>learn_levels.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="log in form.resx">
       <DependentUpon>log in form.cs</DependentUpon>
@@ -124,6 +130,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="quiz_levels.resx">
+      <DependentUpon>quiz_levels.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sign in form .resx">
       <DependentUpon>sign in form .cs</DependentUpon>
     </EmbeddedResource>
@@ -148,6 +157,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\381f33c662720af5a36af37ce78e1cb4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2023-12-06_05-53-35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2023-12-06_00-03-30.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,6 +1,6 @@
 ﻿namespace kidsgame
 {
-    partial class Form6
+    partial class learn_form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(learn_form));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -36,31 +36,34 @@
             // button1
             // 
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(28, 32);
+            this.button1.Location = new System.Drawing.Point(32, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 37);
+            this.button1.Size = new System.Drawing.Size(90, 37);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(648, 32);
+            this.button2.Location = new System.Drawing.Point(848, 32);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 37);
+            this.button2.Size = new System.Drawing.Size(90, 37);
             this.button2.TabIndex = 1;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // Form6
+            // learn_form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(748, 526);
+            this.ClientSize = new System.Drawing.Size(960, 620);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form6";
-            this.Text = "Form6";
+            this.Name = "learn_form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Learn Form";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.learn_form_FormClosing);
+            this.Load += new System.EventHandler(this.learn_form_Load);
             this.ResumeLayout(false);
 
         }

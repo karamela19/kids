@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace kidsgame
 {
-    public partial class Form5 : Form
+    public partial class quiz_form : Form
     {
-        public Form5()
+        public quiz_form()
         {
             InitializeComponent();
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
         {
 
         }

@@ -21,5 +21,21 @@ namespace kidsgame
         {
 
         }
+
+        private void btn_sign_in_form_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            sign_in_form sign_In_Form = new sign_in_form(); 
+            sign_In_Form.Show();
+            
+
+        }
+
+        private void btn_loads_form_click(object sender, EventArgs e)
+        {
+            this.Hide();
+            log_in_form log_In_Form = new log_in_form();
+            log_In_Form.ShowDialog();
+        }
     }
 }

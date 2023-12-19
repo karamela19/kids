@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace kidsgame
 {
-    public partial class Form6 : Form
+    public partial class learn_form : Form
     {
-        public Form6()
+        bool check_exit = true;
+        public learn_form()
         {
             InitializeComponent();
+        }
+
+        private void learn_form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void learn_form_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (check_exit == true)
+            { Application.Exit(); }
         }
     }
 }

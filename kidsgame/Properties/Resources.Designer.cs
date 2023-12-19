@@ -79,5 +79,25 @@ namespace kidsgame.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2023_12_06_00_03_30 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2023-12-06_00-03-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_2023_12_06_05_53_35 {
+            get {
+                object obj = ResourceManager.GetObject("photo_2023-12-06_05-53-35", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
